@@ -1,17 +1,16 @@
-import Img from "./assets/img/about-pets.png";
+import Img from "./assets/img/donation-dog.png";
 
-import "./About.scss";
+import "./Donate.scss";
 
-const About = () => {
+const Donate = () => {
   return (
     <>
-      <section className="about">
-        <img src={Img} alt="About Pets" className="about__img" />
-        <div className="about__container">
+      <section className="donate">
+        <img src={Img} alt="Donation Dog" className="donate__img" />
+        <div className="donate__container">
           <h3 className="h3">
-            About the shelter
-            <br />
-            “Cozy House”
+            You can also make
+            <br />a donation
           </h3>
           <div className="paragraph">
             Currently we have 121 dogs and 342 cats on our hands and statistics show that only 20%
@@ -31,4 +30,4 @@ const About = () => {
   );
 };
 
-export { About };
+export { Donate };

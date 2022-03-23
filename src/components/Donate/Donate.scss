@@ -1,17 +1,17 @@
 @import "../../scss/Variables.scss";
 
-.about {
+.donate {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: $base * 24;
   padding: $base * 16 $base * 8 $base * 20 $base * 8;
+  background-color: $color-light-l;
 }
 
-.about__container {
+.donate__container {
   display: flex;
   flex-direction: column;
-  gap: $base * 5;
+  gap: $base * 4;
   width: 36%;
 
   .paragraph {
@@ -19,7 +19,7 @@
   }
 }
 
-.about__img {
-  width: 25%;
+.donate__img {
+  width: 43%;
   height: auto;
 }

@@ -17,11 +17,7 @@
   flex-direction: column;
   gap: $base * 8;
   width: 39%;
-  padding-top: $base * 34;
-
-  .h2 {
-    width: 61%;
-  }
+  padding: $base * 34 0 $base * 49 0;
 }
 
 .paragraph {
