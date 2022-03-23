@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shelter-landing/static/css/main.b421cbf4.css",
-    "main.js": "/shelter-landing/static/js/main.98282514.js",
+    "main.css": "/shelter-landing/static/css/main.b844eacb.css",
+    "main.js": "/shelter-landing/static/js/main.fc05e13e.js",
     "static/js/787.9805d0ee.chunk.js": "/shelter-landing/static/js/787.9805d0ee.chunk.js",
     "static/media/start-screen-puppy.png": "/shelter-landing/static/media/start-screen-puppy.e9a128c9b41515595906.png",
     "static/media/Tinos-Regular.woff": "/shelter-landing/static/media/Tinos-Regular.569705b443dd07f18282.woff",
@@ -14,14 +14,22 @@
     "static/media/Tinos-Italic.woff2": "/shelter-landing/static/media/Tinos-Italic.e4f2930a07f0c2ab7dae.woff2",
     "static/media/Tinos-Bold.woff2": "/shelter-landing/static/media/Tinos-Bold.69da99f1dc960aa13056.woff2",
     "static/media/Arimo-Italic.woff2": "/shelter-landing/static/media/Arimo-Italic.1b002bdca012f5613e53.woff2",
+    "static/media/pets-charly.png": "/shelter-landing/static/media/pets-charly.369f32519d09e621f928.png",
     "static/media/Arimo-Regular.woff2": "/shelter-landing/static/media/Arimo-Regular.cec3e3f75bdf9e81b4df.woff2",
+    "static/media/pets-sophia.png": "/shelter-landing/static/media/pets-sophia.4028950b0675cc999fba.png",
+    "static/media/pets-woody.png": "/shelter-landing/static/media/pets-woody.4a5693aab35b2a8ca8ac.png",
+    "static/media/pets-timmy.png": "/shelter-landing/static/media/pets-timmy.92533370065fe8846ce7.png",
+    "static/media/pets-jennifer.png": "/shelter-landing/static/media/pets-jennifer.61c5e75926d2713cc736.png",
+    "static/media/pets-freddie.png": "/shelter-landing/static/media/pets-freddie.a1ffe8cad4e12f315709.png",
+    "static/media/pets-katrine.png": "/shelter-landing/static/media/pets-katrine.ae2f72ce7b0fde78e861.png",
+    "static/media/pets-scarlet.png": "/shelter-landing/static/media/pets-scarlet.0adb0fb9ca1d51274741.png",
     "index.html": "/shelter-landing/index.html",
-    "main.b421cbf4.css.map": "/shelter-landing/static/css/main.b421cbf4.css.map",
-    "main.98282514.js.map": "/shelter-landing/static/js/main.98282514.js.map",
+    "main.b844eacb.css.map": "/shelter-landing/static/css/main.b844eacb.css.map",
+    "main.fc05e13e.js.map": "/shelter-landing/static/js/main.fc05e13e.js.map",
     "787.9805d0ee.chunk.js.map": "/shelter-landing/static/js/787.9805d0ee.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b421cbf4.css",
-    "static/js/main.98282514.js"
+    "static/css/main.b844eacb.css",
+    "static/js/main.fc05e13e.js"
   ]
 }
