@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shelter-landing/static/css/main.b844eacb.css",
-    "main.js": "/shelter-landing/static/js/main.fc05e13e.js",
+    "main.css": "/shelter-landing/static/css/main.563776f9.css",
+    "main.js": "/shelter-landing/static/js/main.1b45b3fd.js",
     "static/js/787.9805d0ee.chunk.js": "/shelter-landing/static/js/787.9805d0ee.chunk.js",
     "static/media/start-screen-puppy.png": "/shelter-landing/static/media/start-screen-puppy.e9a128c9b41515595906.png",
     "static/media/Tinos-Regular.woff": "/shelter-landing/static/media/Tinos-Regular.569705b443dd07f18282.woff",
@@ -13,6 +13,7 @@
     "static/media/Tinos-Regular.woff2": "/shelter-landing/static/media/Tinos-Regular.1fa546e938c1006920f7.woff2",
     "static/media/Tinos-Italic.woff2": "/shelter-landing/static/media/Tinos-Italic.e4f2930a07f0c2ab7dae.woff2",
     "static/media/Tinos-Bold.woff2": "/shelter-landing/static/media/Tinos-Bold.69da99f1dc960aa13056.woff2",
+    "static/media/donation-dog.png": "/shelter-landing/static/media/donation-dog.46b1b018f609ab0395a1.png",
     "static/media/Arimo-Italic.woff2": "/shelter-landing/static/media/Arimo-Italic.1b002bdca012f5613e53.woff2",
     "static/media/pets-charly.png": "/shelter-landing/static/media/pets-charly.369f32519d09e621f928.png",
     "static/media/Arimo-Regular.woff2": "/shelter-landing/static/media/Arimo-Regular.cec3e3f75bdf9e81b4df.woff2",
@@ -23,13 +24,22 @@
     "static/media/pets-freddie.png": "/shelter-landing/static/media/pets-freddie.a1ffe8cad4e12f315709.png",
     "static/media/pets-katrine.png": "/shelter-landing/static/media/pets-katrine.ae2f72ce7b0fde78e861.png",
     "static/media/pets-scarlet.png": "/shelter-landing/static/media/pets-scarlet.0adb0fb9ca1d51274741.png",
+    "static/media/transportation.svg": "/shelter-landing/static/media/transportation.a5188f228071a4025316075a2e2c31b3.svg",
+    "static/media/collars-or-leashes.svg": "/shelter-landing/static/media/collars-or-leashes.f759b2d8c35cc50545ba5465a1315989.svg",
+    "static/media/sleeping-areas.svg": "/shelter-landing/static/media/sleeping-areas.98d88a42c7d9526d9a706a52c76a0ad9.svg",
+    "static/media/medicines.svg": "/shelter-landing/static/media/medicines.3150a665c51faa4f98f2988bc83a4457.svg",
+    "static/media/vitamins.svg": "/shelter-landing/static/media/vitamins.92e895428b5eafc59c319a75334e075b.svg",
+    "static/media/pet-food.svg": "/shelter-landing/static/media/pet-food.4d91570710d82d3cf693757fc2b3901d.svg",
+    "static/media/bowls-and-cups.svg": "/shelter-landing/static/media/bowls-and-cups.b7cad0c0547024cf418ee7be206992da.svg",
+    "static/media/toys.svg": "/shelter-landing/static/media/toys.29d582293f334e9738ce8bd7136f6de5.svg",
+    "static/media/shampoos.svg": "/shelter-landing/static/media/shampoos.ff258743e2c053269b7b617b1f4c5940.svg",
     "index.html": "/shelter-landing/index.html",
-    "main.b844eacb.css.map": "/shelter-landing/static/css/main.b844eacb.css.map",
-    "main.fc05e13e.js.map": "/shelter-landing/static/js/main.fc05e13e.js.map",
+    "main.563776f9.css.map": "/shelter-landing/static/css/main.563776f9.css.map",
+    "main.1b45b3fd.js.map": "/shelter-landing/static/js/main.1b45b3fd.js.map",
     "787.9805d0ee.chunk.js.map": "/shelter-landing/static/js/787.9805d0ee.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b844eacb.css",
-    "static/js/main.fc05e13e.js"
+    "static/css/main.563776f9.css",
+    "static/js/main.1b45b3fd.js"
   ]
 }
