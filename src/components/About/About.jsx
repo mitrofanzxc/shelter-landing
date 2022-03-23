@@ -5,7 +5,7 @@ import "./About.scss";
 const About = () => {
   return (
     <>
-      <section className="about inner__container">
+      <section className="about">
         <img src={Img} alt="About Pets" className="about__img" />
         <div className="about__container">
           <h3 className="h3">About the shelter “Cozy House”</h3>

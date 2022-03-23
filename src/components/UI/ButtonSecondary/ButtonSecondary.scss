@@ -1,0 +1,21 @@
+@import "../../../scss/Variables.scss";
+
+.button__secondary {
+  @include tinos;
+  width: $base * 40;
+  margin-left: $base;
+  padding: $base * 3 $base * 9;
+  font-size: $fs-s;
+  line-height: $base * 4;
+  color: $color-dark-xxxl;
+  background-color: transparent;
+  border: 2px solid $color-primary-light;
+  border-radius: $base * 10;
+  cursor: pointer;
+  transition: $transition;
+
+  &:hover {
+    background-color: $color-primary-light;
+    transition: $transition;
+  }
+}

@@ -1,7 +1,16 @@
+import Jennifer from "../components/Slider/assets/img/pets-jennifer.png";
+import Sophia from "../components/Slider/assets/img/pets-sophia.png";
+import Woody from "../components/Slider/assets/img/pets-woody.png";
+import Scarlett from "../components/Slider/assets/img/pets-scarlet.png";
+import Katrine from "../components/Slider/assets/img/pets-katrine.png";
+import Timmy from "../components/Slider/assets/img/pets-timmy.png";
+import Freddie from "../components/Slider/assets/img/pets-freddie.png";
+import Charly from "../components/Slider/assets/img/pets-charly.png";
+
 const PETS = [
   {
     name: "Jennifer",
-    img: "../../assets/images/jennifer.png",
+    img: Jennifer,
     type: "Dog",
     breed: "Labrador",
     description:
@@ -13,7 +22,7 @@ const PETS = [
   },
   {
     name: "Sophia",
-    img: "../../assets/images/sophia.png",
+    img: Sophia,
     type: "Dog",
     breed: "Shih tzu",
     description:
@@ -25,7 +34,7 @@ const PETS = [
   },
   {
     name: "Woody",
-    img: "../../assets/images/woody.png",
+    img: Woody,
     type: "Dog",
     breed: "Golden Retriever",
     description:
@@ -37,7 +46,7 @@ const PETS = [
   },
   {
     name: "Scarlett",
-    img: "../../assets/images/scarlett.png",
+    img: Scarlett,
     type: "Dog",
     breed: "Jack Russell Terrier",
     description:
@@ -49,7 +58,7 @@ const PETS = [
   },
   {
     name: "Katrine",
-    img: "../../assets/images/katrine.png",
+    img: Katrine,
     type: "Cat",
     breed: "British Shorthair",
     description:
@@ -61,7 +70,7 @@ const PETS = [
   },
   {
     name: "Timmy",
-    img: "../../assets/images/timmy.png",
+    img: Timmy,
     type: "Cat",
     breed: "British Shorthair",
     description:
@@ -73,7 +82,7 @@ const PETS = [
   },
   {
     name: "Freddie",
-    img: "../../assets/images/freddie.png",
+    img: Freddie,
     type: "Cat",
     breed: "British Shorthair",
     description:
@@ -85,7 +94,7 @@ const PETS = [
   },
   {
     name: "Charly",
-    img: "../../assets/images/charly.png",
+    img: Charly,
     type: "Dog",
     breed: "Jack Russell Terrier",
     description:

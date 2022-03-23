@@ -83,6 +83,17 @@ body {
   letter-spacing: 2px;
 }
 
+.h4 {
+  @include tinos;
+  margin: 0;
+  padding: 0;
+  font-size: $fs-m;
+  font-weight: $fw-regular;
+  color: $color-dark-l;
+  line-height: $base * 4;
+  letter-spacing: 1px;
+}
+
 a {
   text-decoration: none;
   color: $color-dark-xxxl;

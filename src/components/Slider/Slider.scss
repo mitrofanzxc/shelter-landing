@@ -1,1 +1,38 @@
 @import "../../scss/Variables.scss";
+
+.slider {
+  padding-top: $base * 16;
+  background-color: $color-light-l;
+
+  .h3 {
+    text-align: center;
+  }
+
+  .button__primary {
+    display: block;
+    width: $base * 50;
+    margin: 0 auto;
+  }
+}
+
+.slider__container {
+  display: flex;
+  justify-content: space-between;
+  gap: $base * 18;
+  width: 62%;
+  margin: $base * 12 auto;
+  overflow-x: hidden;
+}
+
+.slider__card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: $base * 3;
+  background-color: $color-light-s;
+}
+
+.slider__img {
+  width: 100%;
+  height: auto;
+}
