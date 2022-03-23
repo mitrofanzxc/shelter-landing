@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/react-stage-3/static/css/main.6270e67d.css",
-    "main.js": "/react-stage-3/static/js/main.ea089a92.js",
-    "static/js/787.54a39ec3.chunk.js": "/react-stage-3/static/js/787.54a39ec3.chunk.js",
-    "static/media/start-screen-puppy.png": "/react-stage-3/static/media/start-screen-puppy.e9a128c9b41515595906.png",
-    "static/media/Tinos-Regular.woff": "/react-stage-3/static/media/Tinos-Regular.569705b443dd07f18282.woff",
-    "static/media/Tinos-Italic.woff": "/react-stage-3/static/media/Tinos-Italic.0bcf8a63b8767fdc4e1f.woff",
-    "static/media/Tinos-Bold.woff": "/react-stage-3/static/media/Tinos-Bold.7ed2fe4bf50e2f4a7de6.woff",
-    "static/media/Arimo-Italic.woff": "/react-stage-3/static/media/Arimo-Italic.661c7b6f1fe37b879943.woff",
-    "static/media/Arimo-Regular.woff": "/react-stage-3/static/media/Arimo-Regular.2ce7419cbd73a7c82a07.woff",
-    "static/media/Tinos-Regular.woff2": "/react-stage-3/static/media/Tinos-Regular.1fa546e938c1006920f7.woff2",
-    "static/media/Tinos-Italic.woff2": "/react-stage-3/static/media/Tinos-Italic.e4f2930a07f0c2ab7dae.woff2",
-    "static/media/Tinos-Bold.woff2": "/react-stage-3/static/media/Tinos-Bold.69da99f1dc960aa13056.woff2",
-    "static/media/Arimo-Italic.woff2": "/react-stage-3/static/media/Arimo-Italic.1b002bdca012f5613e53.woff2",
-    "static/media/Arimo-Regular.woff2": "/react-stage-3/static/media/Arimo-Regular.cec3e3f75bdf9e81b4df.woff2",
-    "index.html": "/react-stage-3/index.html",
-    "main.6270e67d.css.map": "/react-stage-3/static/css/main.6270e67d.css.map",
-    "main.ea089a92.js.map": "/react-stage-3/static/js/main.ea089a92.js.map",
-    "787.54a39ec3.chunk.js.map": "/react-stage-3/static/js/787.54a39ec3.chunk.js.map"
+    "main.css": "/shelter-landing/static/css/main.68083938.css",
+    "main.js": "/shelter-landing/static/js/main.ade7cc4f.js",
+    "static/js/787.9805d0ee.chunk.js": "/shelter-landing/static/js/787.9805d0ee.chunk.js",
+    "static/media/start-screen-puppy.png": "/shelter-landing/static/media/start-screen-puppy.e9a128c9b41515595906.png",
+    "static/media/Tinos-Regular.woff": "/shelter-landing/static/media/Tinos-Regular.569705b443dd07f18282.woff",
+    "static/media/Tinos-Italic.woff": "/shelter-landing/static/media/Tinos-Italic.0bcf8a63b8767fdc4e1f.woff",
+    "static/media/Tinos-Bold.woff": "/shelter-landing/static/media/Tinos-Bold.7ed2fe4bf50e2f4a7de6.woff",
+    "static/media/Arimo-Italic.woff": "/shelter-landing/static/media/Arimo-Italic.661c7b6f1fe37b879943.woff",
+    "static/media/Arimo-Regular.woff": "/shelter-landing/static/media/Arimo-Regular.2ce7419cbd73a7c82a07.woff",
+    "static/media/Tinos-Regular.woff2": "/shelter-landing/static/media/Tinos-Regular.1fa546e938c1006920f7.woff2",
+    "static/media/Tinos-Italic.woff2": "/shelter-landing/static/media/Tinos-Italic.e4f2930a07f0c2ab7dae.woff2",
+    "static/media/Tinos-Bold.woff2": "/shelter-landing/static/media/Tinos-Bold.69da99f1dc960aa13056.woff2",
+    "static/media/Arimo-Italic.woff2": "/shelter-landing/static/media/Arimo-Italic.1b002bdca012f5613e53.woff2",
+    "static/media/Arimo-Regular.woff2": "/shelter-landing/static/media/Arimo-Regular.cec3e3f75bdf9e81b4df.woff2",
+    "index.html": "/shelter-landing/index.html",
+    "main.68083938.css.map": "/shelter-landing/static/css/main.68083938.css.map",
+    "main.ade7cc4f.js.map": "/shelter-landing/static/js/main.ade7cc4f.js.map",
+    "787.9805d0ee.chunk.js.map": "/shelter-landing/static/js/787.9805d0ee.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6270e67d.css",
-    "static/js/main.ea089a92.js"
+    "static/css/main.68083938.css",
+    "static/js/main.ade7cc4f.js"
   ]
 }
