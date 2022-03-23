@@ -1,8 +1,8 @@
 {
-  "name": "react-stage-3",
+  "name": "shelter-landing",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mitrofanzxc.github.io/react-stage-3",
+  "homepage": "https://mitrofanzxc.github.io/shelter-landing",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",

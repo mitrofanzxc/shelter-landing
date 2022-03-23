@@ -1,14 +1,10 @@
 @import "../../scss/Variables.scss";
 
 .header {
-  position: absolute;
-  top: $base * 12;
-  width: 93%;
+  padding: $base * 12 $base * 8 0 $base * 8;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: url("../../assets/img/noise_transparent@2x.png"),
-    radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%);
 
   .paragraph {
     font-size: $fs-xxs;
