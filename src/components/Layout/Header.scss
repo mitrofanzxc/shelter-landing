@@ -1,0 +1,37 @@
+@import "../../scss/Variables.scss";
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .paragraph {
+    font-size: $fs-xxs;
+    letter-spacing: 2px;
+    color: $color-light-xl;
+  }
+}
+
+.h1__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: $base * 7;
+}
+
+.nav__link {
+  @include arimo;
+  font-size: $fs-xs;
+  line-height: $base * 5;
+  color: $color-dark-s;
+  transition: $transition;
+}
+
+.active {
+  color: $color-light-s;
+  transition: $transition;
+}

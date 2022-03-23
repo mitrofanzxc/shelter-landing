@@ -1,0 +1,82 @@
+// === MIXIN ===
+
+@mixin disableSelection {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@mixin tinos {
+  font-family: "Tinos", serif;
+}
+
+@mixin arimo {
+  font-family: "Arimo", sans-serif;
+}
+
+// === / MIXIN ===
+
+// === FUNCTIONS ===
+
+@function strip-unit($num) {
+  @return $num / ($num * 0 + 1);
+}
+
+@function rem($num) {
+  @return (strip-unit($num) / 16) * 1rem;
+}
+
+// === / FUNCTIONS ===
+
+// === VARIABLES ===
+
+$base: rem(5px);
+
+$fw-regular: 400;
+$fw-bold: 700;
+
+$fs-xxxs: rem(12px);
+$fs-xxs: rem(13px);
+$fs-xs: rem(15px);
+$fs-s: rem(20px);
+$fs-m: rem(22px);
+$fs-l: rem(32px);
+$fs-xl: rem(35px);
+$fs-xxl: rem(44px);
+
+$transition: 0.3s;
+
+$color-light-xl: #ffffff;
+$color-light-l: #f6f6f6;
+$color-light-s: #fafafa;
+$color-dark-s: #cdcdcd;
+$color-dark-m: #b2b2b2;
+$color-dark-l: #545454;
+$color-dark-xl: #4c4c4c;
+$color-dark-xxl: #444444;
+$color-dark-xxxl: #292929;
+$color-primary: #f1cdb3;
+$color-primary-light: #fddcc4;
+
+$breakpoint-xxs-min: 320px;
+$breakpoint-xs-min: 480px;
+$breakpoint-sm-min: 576px;
+$breakpoint-md-min: 768px;
+$breakpoint-lg-min: 992px;
+$breakpoint-xl-min: 1200px;
+$breakpoint-xxl-min: 1440px;
+
+$breakpoint-xxxs-max: $breakpoint-xxs-min - 1px;
+$breakpoint-xxs-max: $breakpoint-xs-min - 1px;
+$breakpoint-xs-max: $breakpoint-sm-min - 1px;
+$breakpoint-sm-max: $breakpoint-md-min - 1px;
+$breakpoint-md-max: $breakpoint-lg-min - 1px;
+$breakpoint-lg-max: $breakpoint-xl-min - 1px;
+$breakpoint-xl-max: $breakpoint-xxl-min - 1px;
+
+$calcWidth: 100%;
+
+// === / VARIABLES ===
