@@ -1,6 +1,45 @@
 @import "../../scss/Variables.scss";
 
 .footer {
+  position: relative;
+  padding: $base * 11 $base * 8 $base * 12 $base * 8;
   background: url("../../assets/img/noise_transparent@2x.png"),
     radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%);
+}
+
+.footer__container {
+  display: flex;
+  align-items: flex-start;
+  gap: $base * 32;
+}
+
+.footer__item {
+  display: flex;
+  flex-direction: column;
+  gap: $base * 8;
+  width: 23%;
+  z-index: 2;
+
+  .h2 {
+    font-size: $fs-xxl;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    gap: $base * 4;
+
+    .text {
+      font-size: $fs-m;
+      line-height: $base * 4;
+      letter-spacing: 1px;
+      color: $color-primary;
+    }
+  }
+}
+
+.footer__img {
+  position: absolute;
+  bottom: 0;
+  right: $base * 8;
 }
