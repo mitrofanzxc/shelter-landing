@@ -1,7 +1,7 @@
 @import "../../scss/Variables.scss";
 
 .header {
-  padding: $base * 12 $base * 8 0 $base * 8;
+  padding: $base * 11 $base * 8 0 $base * 8;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -16,7 +16,11 @@
 .h1__container {
   display: flex;
   flex-direction: column;
-  gap: $base * 2;
+  gap: $base;
+
+  .h1 {
+    padding-top: $base;
+  }
 }
 
 .nav {

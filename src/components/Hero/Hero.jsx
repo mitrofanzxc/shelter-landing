@@ -1,5 +1,7 @@
 import Img from "./assets/img/start-screen-puppy.png";
 
+import { ButtonPrimary } from "../UI/ButtonPrimary/ButtonPrimary";
+
 import "./Hero.scss";
 
 const Hero = () => {
@@ -13,7 +15,7 @@ const Hero = () => {
               We offer to give a chance to a little and nice puppy with an extremely wide and open
               heart. He or she will love you more than anybody else in the world, you will see!
             </div>
-            <button className="button__primary">Make a friend</button>
+            <ButtonPrimary name="Make a friend" />
           </div>
           <img src={Img} alt="xyu" className="hero__img" />
         </div>

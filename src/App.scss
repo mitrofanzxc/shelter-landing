@@ -76,10 +76,11 @@ body {
   @include tinos;
   margin: 0;
   padding: 0;
-  font-size: $base * 8;
-  color: $color-dark-xxxl;
-  text-align: center;
-  @include disableSelection;
+  font-size: $fs-xxl;
+  font-weight: $fw-regular;
+  color: $color-dark-l;
+  line-height: $base * 9;
+  letter-spacing: 2px;
 }
 
 a {

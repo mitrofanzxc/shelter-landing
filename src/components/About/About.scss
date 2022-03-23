@@ -1,0 +1,29 @@
+@import "../../scss/Variables.scss";
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: $base * 24;
+  margin-top: $base * 16;
+}
+
+.about__container {
+  display: flex;
+  flex-direction: column;
+  gap: $base * 5;
+  width: 36%;
+
+  .h3 {
+    width: 64%;
+  }
+
+  .paragraph {
+    color: $color-dark-xl;
+  }
+}
+
+.about__img {
+  width: 25%;
+  height: auto;
+}

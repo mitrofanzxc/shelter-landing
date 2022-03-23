@@ -1,7 +1,7 @@
 @import "../../scss/Variables.scss";
 
 .hero {
-  margin-top: -$base * 24;
+  margin-top: -$base * 26;
   background: url("../../assets/img/noise_transparent@2x.png"),
     radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%);
 }
@@ -17,42 +17,22 @@
   flex-direction: column;
   gap: $base * 8;
   width: 39%;
-  padding-top: $base * 33;
-
-  .paragraph {
-    @include arimo;
-    font-size: $fs-xs;
-    line-height: $base * 5;
-    color: $color-dark-s;
-  }
+  padding-top: $base * 34;
 
   .h2 {
     width: 61%;
   }
 }
 
-.button__primary {
-  @include tinos;
-  width: $base * 40;
-  margin-left: $base;
-  padding: $base * 3 $base * 9;
-  font-size: $fs-s;
-  line-height: $base * 4;
-  color: $color-dark-xxxl;
-  background-color: $color-primary;
-  border: none;
-  border-radius: $base * 10;
-  cursor: pointer;
-  transition: $transition;
-
-  &:hover {
-    background-color: $color-primary-light;
-    transition: $transition;
-  }
+.paragraph {
+  @include arimo;
+  font-size: $fs-xs;
+  line-height: $base * 5;
+  color: $color-dark-s;
 }
 
 .hero__img {
   display: block;
-  width: 58%;
+  width: 58.6%;
   height: auto;
 }
