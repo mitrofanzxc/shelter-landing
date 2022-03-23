@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-stage-3/static/css/main.97540c9a.css",
+    "main.js": "/react-stage-3/static/js/main.005ab0bb.js",
+    "static/js/787.54a39ec3.chunk.js": "/react-stage-3/static/js/787.54a39ec3.chunk.js",
+    "static/media/Tinos-Regular.woff": "/react-stage-3/static/media/Tinos-Regular.569705b443dd07f18282.woff",
+    "static/media/Tinos-Italic.woff": "/react-stage-3/static/media/Tinos-Italic.0bcf8a63b8767fdc4e1f.woff",
+    "static/media/Tinos-Bold.woff": "/react-stage-3/static/media/Tinos-Bold.7ed2fe4bf50e2f4a7de6.woff",
+    "static/media/Arimo-Italic.woff": "/react-stage-3/static/media/Arimo-Italic.661c7b6f1fe37b879943.woff",
+    "static/media/Arimo-Regular.woff": "/react-stage-3/static/media/Arimo-Regular.2ce7419cbd73a7c82a07.woff",
+    "static/media/Tinos-Regular.woff2": "/react-stage-3/static/media/Tinos-Regular.1fa546e938c1006920f7.woff2",
+    "static/media/Tinos-Italic.woff2": "/react-stage-3/static/media/Tinos-Italic.e4f2930a07f0c2ab7dae.woff2",
+    "static/media/Tinos-Bold.woff2": "/react-stage-3/static/media/Tinos-Bold.69da99f1dc960aa13056.woff2",
+    "static/media/Arimo-Italic.woff2": "/react-stage-3/static/media/Arimo-Italic.1b002bdca012f5613e53.woff2",
+    "static/media/Arimo-Regular.woff2": "/react-stage-3/static/media/Arimo-Regular.cec3e3f75bdf9e81b4df.woff2",
+    "index.html": "/react-stage-3/index.html",
+    "main.97540c9a.css.map": "/react-stage-3/static/css/main.97540c9a.css.map",
+    "main.005ab0bb.js.map": "/react-stage-3/static/js/main.005ab0bb.js.map",
+    "787.54a39ec3.chunk.js.map": "/react-stage-3/static/js/787.54a39ec3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97540c9a.css",
+    "static/js/main.005ab0bb.js"
+  ]
+}
