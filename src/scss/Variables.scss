@@ -41,11 +41,12 @@ $fw-bold: 700;
 $fs-xxxs: rem(12px);
 $fs-xxs: rem(13px);
 $fs-xs: rem(15px);
-$fs-s: rem(20px);
-$fs-m: rem(22px);
-$fs-l: rem(32px);
-$fs-xl: rem(35px);
-$fs-xxl: rem(44px);
+$fs-s: rem(17px);
+$fs-m: rem(20px);
+$fs-l: rem(22px);
+$fs-xl: rem(32px);
+$fs-xxl: rem(35px);
+$fs-xxxl: rem(44px);
 
 $transition: 0.3s;
 
@@ -60,6 +61,8 @@ $color-dark-xxl: #444444;
 $color-dark-xxxl: #292929;
 $color-primary: #f1cdb3;
 $color-primary-light: #fddcc4;
+$color-background: radial-gradient(circle, rgba(91, 72, 58, 1) 0%, rgba(38, 36, 37, 1) 100%);
+$color-background-secondary: #211f20;
 
 $breakpoint-xxs-min: 320px;
 $breakpoint-xs-min: 480px;

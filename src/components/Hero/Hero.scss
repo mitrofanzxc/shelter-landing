@@ -1,0 +1,52 @@
+@import "../../scss/Variables.scss";
+
+.hero {
+  background: url("../../assets/img/noise_transparent@2x.png"),
+    radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%);
+}
+
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: $base * 36;
+}
+
+.form__container {
+  display: flex;
+  flex-direction: column;
+  gap: $base * 8;
+  width: 39%;
+  padding-top: $base * 40;
+
+  .paragraph {
+    @include arimo;
+    font-size: $fs-xs;
+    line-height: $base * 5;
+    color: $color-dark-s;
+  }
+}
+
+.button__primary {
+  @include tinos;
+  width: $base * 40;
+  padding: $base * 3 $base * 9;
+  font-size: $fs-s;
+  line-height: $base * 4;
+  color: $color-dark-xxxl;
+  background-color: $color-primary;
+  border: none;
+  border-radius: $base * 10;
+  cursor: pointer;
+  transition: $transition;
+
+  &:hover {
+    background-color: $color-primary-light;
+    transition: $transition;
+  }
+}
+
+.hero__img {
+  display: block;
+  width: 50%;
+  height: auto;
+}
