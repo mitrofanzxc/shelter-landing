@@ -1,7 +1,7 @@
 @import "../../scss/Variables.scss";
 
 .slider {
-  padding: $base * 16 0 $base * 20 0;
+  padding: $base * 16 $base * 8 $base * 20 $base * 8;
   background-color: $color-light-l;
 
   .h3 {
@@ -19,8 +19,8 @@
   display: flex;
   justify-content: space-between;
   gap: $base * 18;
-  width: 77%;
-  margin: $base * 12 auto;
+  width: 86%;
+  padding: $base * 12;
   overflow-x: hidden;
 
   @media (max-width: $breakpoint-md-min) {
@@ -51,10 +51,13 @@
     gap: $base * 7;
     width: 100%;
     background-color: $color-light-s;
+    border-radius: $base * 2;
     transition: $transition;
   }
 }
 
 .slider__img {
+  width: 100%;
+  height: auto;
   cursor: pointer;
 }

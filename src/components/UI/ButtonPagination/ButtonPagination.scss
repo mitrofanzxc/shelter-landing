@@ -1,9 +1,11 @@
 @import "../../../scss/Variables.scss";
 
 .button__pagination {
+  position: absolute;
+  top: 50.5%;
   @include tinos;
-  width: $base * 10;
-  height: $base * 10;
+  min-width: $base * 10;
+  min-height: $base * 10;
   font-size: $fs-m;
   letter-spacing: 1px;
   line-height: $base * 5;
@@ -12,11 +14,28 @@
   border-radius: 50%;
   border: 2px solid $color-primary;
   background-color: $color-light-s;
+  background-position: center;
+  background-repeat: no-repeat;
   cursor: pointer;
+  z-index: 2;
   transition: $transition;
 
   &:hover {
     background-color: $color-primary;
     transition: $transition;
   }
+}
+
+.arrow__left {
+  right: 93%;
+  background-image: url("./assets/img/arrow.svg");
+}
+
+.arrow__right {
+  left: 93%;
+  background-image: url("./assets/img/arrow.svg");
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
