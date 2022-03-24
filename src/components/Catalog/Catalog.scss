@@ -21,6 +21,11 @@
   gap: $base * 6;
   width: 100%;
   margin: $base * 12 auto;
+
+  @media (max-width: $breakpoint-md-min) {
+    justify-content: center;
+    margin: $base * 6 auto;
+  }
 }
 
 .pagination__container {

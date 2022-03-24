@@ -12,6 +12,7 @@
   border-radius: 50%;
   border: 2px solid $color-primary;
   background-color: $color-light-s;
+  cursor: pointer;
   transition: $transition;
 
   &:hover {
