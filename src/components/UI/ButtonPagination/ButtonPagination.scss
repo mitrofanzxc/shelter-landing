@@ -1,7 +1,8 @@
 @import "../../../scss/Variables.scss";
 
 .button__pagination {
-  position: absolute;
+  // position: absolute;
+  display: block;
   top: 50.5%;
   @include tinos;
   min-width: $base * 10;
@@ -27,15 +28,22 @@
 }
 
 .arrow__left {
-  right: 93%;
+  right: 95.7%;
   background-image: url("./assets/img/arrow.svg");
 }
 
 .arrow__right {
-  left: 93%;
+  left: 95.7%;
   background-image: url("./assets/img/arrow.svg");
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
+}
+
+.swiper-button-disabled {
+  cursor: auto;
+  opacity: 0.5;
+  pointer-events: none;
+  transition: $transition;
 }

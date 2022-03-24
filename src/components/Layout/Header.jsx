@@ -1,11 +1,8 @@
-import { Link, NavLink, useLocation } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 import "./Header.scss";
 
 const Header = () => {
-  const Path = useLocation().pathname;
-  console.log(Path);
-  console.log(Path === "/pets");
   return (
     <>
       <header className="header">

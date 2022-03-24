@@ -7,7 +7,6 @@ import { PETS } from "../../shared/Pets";
 
 import { ButtonPrimary } from "../UI/ButtonPrimary/ButtonPrimary";
 import { ButtonSecondary } from "../UI/ButtonSecondary/ButtonSecondary";
-import { ButtonPagination } from "../UI/ButtonPagination/ButtonPagination";
 
 import "swiper/scss";
 import "swiper/scss/navigation";
@@ -28,9 +27,8 @@ const Slider = () => {
         </h3>
         <Swiper
           className="slider__container"
-          data-test-id="main-slider"
           modules={[Navigation]}
-          spaceBetween={85}
+          spaceBetween={90}
           slidesPerView={3}
           navigation={{
             prevEl: navigationPrevRef.current,
@@ -56,8 +54,10 @@ const Slider = () => {
               </>
             );
           })}
-          <ButtonPagination ref={navigationPrevRef} className="button__pagination arrow__left" />
-          <ButtonPagination ref={navigationNextRef} className="button__pagination arrow__right" />
+          <div className="buttons__container">
+            <button ref={navigationPrevRef} className="button__pagination arrow__left"></button>
+            <button ref={navigationNextRef} className="button__pagination arrow__right"></button>
+          </div>
         </Swiper>
         <ButtonPrimary name="Get to know the rest" />
       </section>

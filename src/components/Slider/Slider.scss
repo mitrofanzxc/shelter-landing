@@ -1,7 +1,7 @@
 @import "../../scss/Variables.scss";
 
 .slider {
-  padding: $base * 16 $base * 8 $base * 20 $base * 8;
+  padding: $base * 16 0 $base * 20 0;
   background-color: $color-light-l;
 
   .h3 {
@@ -16,16 +16,17 @@
 }
 
 .slider__container {
-  display: flex;
-  justify-content: space-between;
-  gap: $base * 18;
-  width: 86%;
-  padding: $base * 12;
-  overflow-x: hidden;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  width: 76%;
+  padding-top: $base * 12;
+  padding-bottom: $base * 12;
+  // overflow-x: hidden;
 
-  @media (max-width: $breakpoint-md-min) {
-    gap: $base * 8;
-  }
+  // @media (max-width: $breakpoint-md-min) {
+  //   gap: $base * 8;
+  // }
 }
 
 .slider__card {
@@ -60,4 +61,13 @@
   width: 100%;
   height: auto;
   cursor: pointer;
+}
+
+.buttons__container {
+  position: absolute;
+  top: 46%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }

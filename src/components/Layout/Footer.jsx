@@ -14,14 +14,24 @@ const Footer = () => {
               <>
                 <div className="footer__item">
                   <h2 className="h2">{Item.name}</h2>
-                  <div className="container">
+                  <a
+                    href={Item.hrefFirst}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="container"
+                  >
                     <img src={Item.srcFirst} alt={Item.altFirst} />
                     <div className="text">{Item.firstName}</div>
-                  </div>
-                  <div className="container">
+                  </a>
+                  <a
+                    href={Item.hrefSecond}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="container"
+                  >
                     <img src={Item.srcSecond} alt={Item.altSecond} />
                     <div className="text">{Item.secondName}</div>
-                  </div>
+                  </a>
                 </div>
               </>
             );
