@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/shelter-landing/static/css/main.ec76fa2c.css",
+    "main.css": "/shelter-landing/static/css/main.7a9596d0.css",
     "main.js": "/shelter-landing/static/js/main.9ac2a4f8.js",
     "static/js/787.9805d0ee.chunk.js": "/shelter-landing/static/js/787.9805d0ee.chunk.js",
     "static/media/start-screen-puppy.png": "/shelter-landing/static/media/start-screen-puppy.e9a128c9b41515595906.png",
@@ -39,12 +39,12 @@
     "static/media/credit-card.svg": "/shelter-landing/static/media/credit-card.b0a55b5f9acb325550a0.svg",
     "static/media/location.svg": "/shelter-landing/static/media/location.b90efc14397a34e2b511352158877826.svg",
     "index.html": "/shelter-landing/index.html",
-    "main.ec76fa2c.css.map": "/shelter-landing/static/css/main.ec76fa2c.css.map",
+    "main.7a9596d0.css.map": "/shelter-landing/static/css/main.7a9596d0.css.map",
     "main.9ac2a4f8.js.map": "/shelter-landing/static/js/main.9ac2a4f8.js.map",
     "787.9805d0ee.chunk.js.map": "/shelter-landing/static/js/787.9805d0ee.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec76fa2c.css",
+    "static/css/main.7a9596d0.css",
     "static/js/main.9ac2a4f8.js"
   ]
 }
