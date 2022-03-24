@@ -7,7 +7,7 @@
     radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%);
 
   @media (max-width: $breakpoint-md-min) {
-    padding: $base * 11 $base * 6 $base * 11 $base * 6;
+    padding: $base * 6 $base * 14 0 $base * 13;
   }
 }
 
@@ -15,6 +15,10 @@
   display: flex;
   align-items: flex-start;
   gap: $base * 32;
+
+  @media (max-width: $breakpoint-md-min) {
+    gap: $base * 11;
+  }
 }
 
 .footer__item {
@@ -23,6 +27,10 @@
   gap: $base * 8;
   width: 23%;
   z-index: 2;
+
+  @media (max-width: $breakpoint-md-min) {
+    width: 44%;
+  }
 
   .h2 {
     font-size: $fs-xxl;
@@ -48,4 +56,10 @@
   position: absolute;
   bottom: 0;
   right: $base * 8;
+
+  @media (max-width: $breakpoint-md-min) {
+    position: inherit;
+    display: block;
+    margin: $base * 12 $base * 25 0 auto;
+  }
 }

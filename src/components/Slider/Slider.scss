@@ -22,6 +22,10 @@
   width: 77%;
   margin: $base * 12 auto;
   overflow-x: hidden;
+
+  @media (max-width: $breakpoint-md-min) {
+    gap: $base * 8;
+  }
 }
 
 .slider__card {
@@ -44,6 +48,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: $base * 7;
     width: 100%;
     background-color: $color-light-s;
     transition: $transition;

@@ -9,7 +9,9 @@
   background-color: $color-light-l;
 
   @media (max-width: $breakpoint-md-min) {
-    padding: $base * 16 $base * 6 $base * 18 $base * 6;
+    flex-direction: column-reverse;
+    gap: $base * 11;
+    padding: $base * 16 $base * 6 $base * 20 $base * 6;
   }
 }
 
@@ -18,6 +20,10 @@
   flex-direction: column;
   gap: $base * 4;
   width: 31.9%;
+
+  @media (max-width: $breakpoint-md-min) {
+    width: 54%;
+  }
 
   .h4 {
     font-size: $fs-xs;
@@ -32,6 +38,10 @@
 .donate__img {
   width: 43%;
   height: auto;
+
+  @media (max-width: $breakpoint-md-min) {
+    width: 70%;
+  }
 }
 
 .explanation {

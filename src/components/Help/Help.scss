@@ -3,6 +3,10 @@
 .help {
   padding: $base * 16 0 $base * 20 0;
 
+  @media (max-width: $breakpoint-md-min) {
+    padding: $base * 16 0 $base * 19 0;
+  }
+
   .h3 {
     text-align: center;
   }
@@ -23,4 +27,8 @@
   flex-direction: column;
   gap: $base * 7;
   width: 14%;
+
+  @media (max-width: $breakpoint-md-min) {
+    width: 23%;
+  }
 }

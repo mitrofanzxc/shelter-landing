@@ -8,6 +8,8 @@
   padding: $base * 16 $base * 8 $base * 20 $base * 8;
 
   @media (max-width: $breakpoint-md-min) {
+    flex-direction: column-reverse;
+    gap: $base * 14;
     padding: $base * 16 $base * 6 $base * 20 $base * 6;
   }
 }
@@ -18,6 +20,10 @@
   gap: $base * 5;
   width: 36%;
 
+  @media (max-width: $breakpoint-md-min) {
+    width: 61%;
+  }
+
   .paragraph {
     color: $color-dark-xl;
   }
@@ -26,4 +32,8 @@
 .about__img {
   width: 25%;
   height: auto;
+
+  @media (max-width: $breakpoint-md-min) {
+    width: 42%;
+  }
 }
