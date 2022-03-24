@@ -1,10 +1,21 @@
 @import "../../scss/Variables.scss";
 
 .header {
-  padding: $base * 11 $base * 8 0 $base * 8;
+  position: absolute;
+  top: $base * 11;
+  right: $base * 8;
+  left: $base * 8;
+  z-index: 2;
+  // padding: $base * 11 $base * 8 0 $base * 8;
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @media (max-width: $breakpoint-md-min) {
+    top: $base * 5;
+    right: $base * 6;
+    left: $base * 6;
+  }
 
   .paragraph {
     font-size: $fs-xxs;
@@ -30,14 +41,32 @@
 }
 
 .nav__link {
+  position: relative;
   @include arimo;
   font-size: $fs-xs;
   line-height: $base * 5;
   color: $color-dark-s;
   transition: $transition;
+
+  &::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: $color-primary;
+    opacity: 0;
+    transition: $transition;
+  }
 }
 
 .active {
   color: $color-light-s;
   transition: $transition;
+
+  &::after {
+    opacity: 1;
+    transition: $transition;
+  }
 }

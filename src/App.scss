@@ -49,6 +49,10 @@ body {
 
 .inner__container {
   padding: 0 $base * 8;
+
+  @media (max-width: $breakpoint-md-min) {
+    padding: 0 $base * 6;
+  }
 }
 
 .h1 {

@@ -1,7 +1,7 @@
 @import "../../scss/Variables.scss";
 
 .hero {
-  margin-top: -$base * 26;
+  // margin-top: -$base * 26;
   background: url("../../assets/img/noise_transparent@2x.png"),
     radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%);
 }
@@ -11,15 +11,33 @@
   display: flex;
   justify-content: space-between;
   padding-top: $base * 36;
+
+  @media (max-width: $breakpoint-md-min) {
+    padding-top: $base * 30;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
 
 .form__container {
   display: flex;
   flex-direction: column;
   gap: $base * 8;
-  width: 39%;
+  // width: 39%;
   padding: $base * 34 0 $base * 49 0;
-  // z-index: 2;
+  z-index: 2;
+
+  @media (max-width: $breakpoint-md-min) {
+    padding: 0 0 $base * 20 0;
+    gap: $base * 9;
+  }
+
+  .button__primary {
+    @media (max-width: $breakpoint-md-min) {
+      margin: 0 auto;
+    }
+  }
 }
 
 .paragraph {
@@ -30,10 +48,16 @@
 }
 
 .hero__img {
-  // position: absolute;
-  // right: 0;
-  // bottom: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
   display: block;
-  width: 58.6%;
+  // width: 58.6%;
   height: auto;
+
+  @media (max-width: $breakpoint-md-min) {
+    position: inherit;
+    width: 80%;
+    margin: 0 0 0 auto;
+  }
 }

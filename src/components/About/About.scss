@@ -6,6 +6,10 @@
   justify-content: center;
   gap: $base * 24;
   padding: $base * 16 $base * 8 $base * 20 $base * 8;
+
+  @media (max-width: $breakpoint-md-min) {
+    padding: $base * 16 $base * 6 $base * 20 $base * 6;
+  }
 }
 
 .about__container {

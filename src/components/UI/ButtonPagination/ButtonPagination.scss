@@ -1,0 +1,21 @@
+@import "../../../scss/Variables.scss";
+
+.button__pagination {
+  @include tinos;
+  width: $base * 10;
+  height: $base * 10;
+  font-size: $fs-m;
+  letter-spacing: 1px;
+  line-height: $base * 5;
+  color: $color-dark-xxxl;
+  text-align: center;
+  border-radius: 50%;
+  border: 2px solid $color-primary;
+  background-color: $color-light-s;
+  transition: $transition;
+
+  &:hover {
+    background-color: $color-primary;
+    transition: $transition;
+  }
+}

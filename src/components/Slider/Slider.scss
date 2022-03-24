@@ -29,10 +29,27 @@
   align-items: center;
   flex-direction: column;
   gap: $base * 6;
+  border-radius: $base * 2;
   background-color: $color-light-s;
+
+  &:hover {
+    .hover {
+      background-color: $color-light-xl;
+      transition: $transition;
+    }
+  }
+
+  .hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: $color-light-s;
+    transition: $transition;
+  }
 }
 
 .slider__img {
-  // width: 100%;
-  height: auto;
+  cursor: pointer;
 }

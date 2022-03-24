@@ -16,8 +16,11 @@ const Hero = () => {
               need a house
             </h2>
             <div className="paragraph">
-              We offer to give a chance to a little and nice puppy with an extremely wide and open
-              heart. He or she will love you more than anybody else in the world, you will see!
+              We offer to give a chance to a little and nice puppy with an extremely
+              <br />
+              wide and open heart. He or she will love you more than anybody else
+              <br />
+              in the world, you will see!
             </div>
             <ButtonPrimary name="Make a friend" />
           </div>

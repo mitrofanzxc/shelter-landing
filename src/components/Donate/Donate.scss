@@ -7,6 +7,10 @@
   gap: $base * 4;
   padding: $base * 16 $base * 8 $base * 18 $base * 8;
   background-color: $color-light-l;
+
+  @media (max-width: $breakpoint-md-min) {
+    padding: $base * 16 $base * 6 $base * 18 $base * 6;
+  }
 }
 
 .donate__container {

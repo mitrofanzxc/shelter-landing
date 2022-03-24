@@ -1,20 +1,20 @@
-import "./Slider.scss";
-
 import { PETS } from "../../shared/Pets";
 
-import { ButtonPrimary } from "../UI/ButtonPrimary/ButtonPrimary";
 import { ButtonSecondary } from "../UI/ButtonSecondary/ButtonSecondary";
+import { ButtonPagination } from "../UI/ButtonPagination/ButtonPagination";
 
-const Slider = () => {
+import "./Catalog.scss";
+
+const Catalog = () => {
   return (
     <>
-      <section className="slider">
+      <section className="catalog">
         <h3 className="h3">
           Our friends who
           <br />
           are looking for a house
         </h3>
-        <div className="slider__container">
+        <div className="catalog__container">
           {PETS.map((Pet) => {
             return (
               <>
@@ -29,10 +29,16 @@ const Slider = () => {
             );
           })}
         </div>
-        <ButtonPrimary name="Get to know the rest" />
+        <div className="pagination__container">
+          <ButtonPagination name="<<" />
+          <ButtonPagination name="<" />
+          <ButtonPagination name="1" />
+          <ButtonPagination name=">" />
+          <ButtonPagination name=">>" />
+        </div>
       </section>
     </>
   );
 };
 
-export { Slider };
+export { Catalog };

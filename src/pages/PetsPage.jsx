@@ -1,7 +1,9 @@
+import { Catalog } from "../components/Catalog/Catalog";
+
 const PetsPage = () => {
   return (
     <>
-      <div>PetsPages</div>
+      <Catalog />
     </>
   );
 };
