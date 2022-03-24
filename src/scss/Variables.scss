@@ -1,5 +1,13 @@
 // === MIXIN ===
 
+@mixin tinos {
+  font-family: "Tinos", serif;
+}
+
+@mixin arimo {
+  font-family: "Arimo", sans-serif;
+}
+
 @mixin disableSelection {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -7,14 +15,6 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-}
-
-@mixin tinos {
-  font-family: "Tinos", serif;
-}
-
-@mixin arimo {
-  font-family: "Arimo", sans-serif;
 }
 
 // === / MIXIN ===
@@ -61,8 +61,6 @@ $color-dark-xxl: #444444;
 $color-dark-xxxl: #292929;
 $color-primary: #f1cdb3;
 $color-primary-light: #fddcc4;
-$color-background: radial-gradient(circle, rgba(91, 72, 58, 1) 0%, rgba(38, 36, 37, 1) 100%);
-$color-background-secondary: #211f20;
 
 $breakpoint-xxs-min: 320px;
 $breakpoint-xs-min: 480px;
