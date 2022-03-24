@@ -1,0 +1,14 @@
+@import "../../../scss/Variables.scss";
+
+.input__card {
+  @include tinos;
+  max-width: $base * 50;
+  padding: $base * 2 $base * 3 $base * 2 $base * 12;
+  font-size: $fs-m;
+  line-height: $base * 5;
+  letter-spacing: 1px;
+  color: $color-dark-l;
+  border: none;
+  border-radius: $base * 2;
+  background: url("./assets/img/credit-card.svg") no-repeat $base * 3 $color-primary;
+}
