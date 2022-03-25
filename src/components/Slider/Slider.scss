@@ -16,24 +16,14 @@
 }
 
 .slider__container {
-  // display: flex;
-  // align-items: center;
-  // justify-content: center;
-  width: 76%;
-  padding-top: $base * 12;
-  padding-bottom: $base * 12;
-  // overflow-x: hidden;
-
-  // @media (max-width: $breakpoint-md-min) {
-  //   gap: $base * 8;
-  // }
+  width: 80%;
+  padding: $base * 12 $base * 20 $base * 12 $base * 20;
 }
 
 .slider__card {
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: $base * 6;
   border-radius: $base * 2;
   background-color: $color-light-s;
 
@@ -52,8 +42,13 @@
     gap: $base * 7;
     width: 100%;
     background-color: $color-light-s;
-    border-radius: $base * 2;
+    border-bottom-left-radius: $base * 2;
+    border-bottom-right-radius: $base * 2;
     transition: $transition;
+
+    .h4 {
+      padding-top: $base * 5;
+    }
   }
 }
 
@@ -65,6 +60,7 @@
 
 .buttons__container {
   position: absolute;
+  left: 0;
   top: 46%;
   display: flex;
   align-items: center;

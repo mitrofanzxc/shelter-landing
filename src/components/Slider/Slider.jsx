@@ -28,7 +28,7 @@ const Slider = () => {
         <Swiper
           className="slider__container"
           modules={[Navigation]}
-          spaceBetween={90}
+          spaceBetween={100}
           slidesPerView={3}
           navigation={{
             prevEl: navigationPrevRef.current,
